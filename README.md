@@ -1,4 +1,4 @@
-# employmeemanager
+# Vue Firebase Employee Manager App from Brad Traversy tutorial
 
 > A Vue.js project
 
