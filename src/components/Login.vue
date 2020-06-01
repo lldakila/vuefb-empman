@@ -16,8 +16,8 @@
               <input autocomplete type="password" id="password" v-model="password">
               <label class="white-text" for="password">Password</label>
             </div>
-            <button v-on:click="login" class="btn btn-large btn-extended grey lighten-4 black-text">Login</button>
-            <router-link class="btn btn-large" to="/register">Register</router-link>
+            <button v-on:click="login" class="btn waves-effect waves-light grey lighten-4 black-text">Login</button>
+            <router-link class="btn-flat teal-text" to="/register">Register</router-link>
           </form>
         </div>
       </div>

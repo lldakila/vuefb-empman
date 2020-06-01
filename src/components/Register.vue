@@ -5,18 +5,18 @@
       <div class="col s12 m8 offset-m2">
         <div class="login card-panel grey lighten-4 black-text center">
           <h3>Register</h3>
-          <form action="index.html">
+          <form>
             <div class="input-field">
               <i class="material-icons prefix">email</i>
-              <input required type="email" id="email" v-model="email">
+              <input class="validate" type="email" id="email" v-model="email" >
               <label for="email">Email Address</label>
             </div>
             <div class="input-field">
               <i class="material-icons prefix">lock</i>
-              <input required autocomplete type="password" id="password" v-model="password">
+              <input class="validate" required="" aria-required="true" autocomplete type="password" id="password" v-model="password">
               <label for="password">Password</label>
             </div>
-            <button v-on:click="register" class="btn btn-large btn-extended grey lighten-4 black-text">Register</button>
+            <button v-on:click="register" class="btn waves-effect waves-light grey lighten-4 black-text">Register</button>
           </form>
         </div>
       </div>

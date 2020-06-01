@@ -3,7 +3,7 @@
         <div class="nav-wrapper red lighten-2">
             <div class="container">
                 <router-link to="/" class="brand-logo">
-                    Employee Manager
+                    EmpMan
                 </router-link>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <!-- <a href="#" data-target="#mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
